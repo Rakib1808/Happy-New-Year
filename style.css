@@ -45,6 +45,7 @@ img {
   font-size: 36px;
   font-weight: 400;
   line-height: 50px;
+  font-family: "Inter";
 }
 
 .banner-greeting{
@@ -52,6 +53,7 @@ img {
   font-size: 72px;
   font-weight: 900;
   line-height: 95px;
+  font-family: "Inter";
 }
 
 /*section discount*/
@@ -59,9 +61,9 @@ img {
 .discount{
   color: #f00;
   text-align: center;
-  font-size: 80px;
-  font-weight: 800;
-  padding: 25px 35px;
+  font-size: 88px;
+  font-weight: 700;
+  padding-top: 50px;
   font-family: "Inter";
   
 }
@@ -69,19 +71,21 @@ img {
 .holiday{
   color:#f00;
   text-align: center;
-  font-size: 20px;
-  font-weight: 200px;
-  top: 5px;
-  font-family: "Inter";
-  
+  font-size: 24px;
+  font-weight: 500px;
+  padding-top: 30px;
+  font-family: "Inter";  
 }
-.CATEGORRIES{
-  text-align: center;
-  font-size: 35px;
-  color: #070211;
-  font-family: "Inter";
 
+.CATEGORRIES{
+  color: #070211;
+  text-align: center;  
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 700px;
+  padding-top: 10px;
 }
+
 .new-year-img{
   max-width: 600px;
   max-height: 450px;
@@ -94,20 +98,12 @@ img {
 
 /*Midnight-Party*/
 
- /* img {
-  height: 100%;
-  width: 100%;
-  display: block;
-} */
-
 .Midnight-Party{
   max-width: 1320px;
   max-height: 600px;
   align-items: center;
   position: relative;
   margin: 50px 100px;
-
- 
 }
 
 .Midnight-Party-content{
@@ -140,16 +136,15 @@ img {
   font-size: 75px;
   font-weight: 170px;
   font-family: "merriweather";
-
 }
 
 .Midnight-Party-btn-primary{
-  border-radius: 10px;
-  font-size: 15px;
-  font-weight: 100px;
-  padding: 5px 10px 5px 10px;
-  font-family: "Inter";
-  
+  font-size: 30px;
+  font-weight: 700px;
+  font-family: "Inter";  
+  color: #fff;
+  border: none;
+  background: none;
 }
 
 .Group-70{
@@ -160,3 +155,150 @@ top: 50%;
 left: 76%;
 transform: translate(50%, -50%);
 }
+
+/* Place-Date-Time */
+
+.Place-Date-Time{
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  padding: 60px;
+  margin: 70px 100px;
+  text-align: center;
+  line-height: 50px;
+  font-family: "Inter";
+  font-size: 40px;
+}
+
+.Place{
+  color: #f00;
+}
+
+.place-span{
+  color: #070211;
+}
+
+.btn{
+  color: #fff;
+  background: #f00;
+  display: inline-block;
+  padding: 16px 30px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+/*main*/
+.main{
+  display: flex;
+  margin-left: 125px;
+  margin-right: 100px;
+  gap: 20px;
+}
+
+.main-offer{
+  color: #F00;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.main-cooming{
+  color: #070211;
+  font-family: "Merriweather";
+  font-size: 40px;
+  font-weight: 850;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+
+.main-img{
+  width: 700px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid #f00;
+  padding: 10px;
+}
+
+.main-2024{
+  color: #F00;
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 700px;
+}
+
+.main-2024-img{
+  width: 120px;
+  height: 120px;
+}
+
+.main-p-tag{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: "Inter";
+  font-size: 16px;
+}
+
+/* Holidays section */
+.Holidays{
+  text-align: center;
+ padding-left: 120px;
+ padding-right: 120px;
+ padding-top: 150px;
+}
+
+.holiday-What{
+  font-size: 25px;
+  font-family: "Inter";
+}
+
+.holiday-Holidays{
+  font-family: "merriweather";
+  font-size: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #f00;
+}
+
+.holiday-sale{
+  color: #070211;
+}
+
+.holiday-sale-50{
+  font-family: "Inter";
+}
+
+.holiday-p-tag{
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 21px;
+  font-family: "Inter";
+  line-height: 35px;
+}
+
+/*git-box section*/
+
+.gift-box{
+  transform: translate(0%, -45%); 
+}
+
+.gift-box-box{
+  height: 550px;
+  width: 600px;
+  transform: translate(17%, 145%);
+}
+
+.gift-box-cute-lady{
+  height: 400px;
+  width: 350px;
+  transform: translate(256.70%, 62.50%);
+}
+
+.gift-box_discount{
+  width: 250px;
+  height: 250px;
+  transform: translate(292%, -39%);
+}
+
+.gift-box-red-bar{
+  height: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
